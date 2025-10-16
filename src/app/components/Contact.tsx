@@ -38,12 +38,12 @@ export default function Contact() {
             &copy; 2025 Filzah Mufidah
           </p>
           <div className='flex space-x-4'>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+            <a href="https://github.com/onyourjie" target="_blank" rel="noopener noreferrer" 
                className='rounded-full bg-gray-100 dark:bg-neutral-800 w-10 h-10 
                flex items-center justify-center hover:bg-gray-200 dark:hover:bg-neutral-700 transition-colors'>
               <IconBrandGithub className='h-6 w-6 text-black dark:text-neutral-400'/>
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+            <a href="https://www.linkedin.com/in/filzah-mufidah-93b19a2a9/" target="_blank" rel="noopener noreferrer" 
                className='rounded-full bg-gray-100 dark:bg-neutral-800 w-10 h-10 
                flex items-center justify-center hover:bg-gray-200 dark:hover:bg-neutral-700 transition-colors'>
               <IconBrandLinkedin className='h-6 w-6 text-black dark:text-neutral-400'/>

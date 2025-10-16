@@ -1,17 +1,18 @@
 import React from 'react'
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 import { projects } from '@/data/project';
+import { getTechIcon } from '@/lib/tech-icons';
 
 export default function RecentProjects() {
   return (
     <section id='projects' className="py-20">
       <div className="max-w-7xl mx-auto px-8">
-        <h2 className="text-4xl font-bold text-center mb-16 text-neutral-800 dark:text-white">
+        <h2 className="text-4xl font-bold text-center mb-16 text-neutral-500 dark:text-white">
           Recent Projects
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center">
-          {projects.slice(0, 2).map((project) => (
+          {projects.map((project) => (
             <CardContainer key={project.id} className="inter-var">
               <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
                 <CardItem
@@ -36,6 +37,26 @@ export default function RecentProjects() {
                     alt={`${project.projectTitle} thumbnail`}
                   />
                 </CardItem>
+                
+                {/* Tech Stack Icons */}
+                {project.techStack && (
+                  <CardItem translateZ="60" className="w-full mt-6">
+                    <div className="flex flex-wrap gap-3">
+                      {project.techStack.map((tech, index) => (
+                        <div 
+                          key={index}
+                          className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-gray-200 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300"
+                        >
+                          <span className="text-neutral-600 dark:text-neutral-400">
+                            {getTechIcon(tech)}
+                          </span>
+                          <span className="text-xs font-medium">{tech}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </CardItem>
+                )}
+                
                 <div className="flex justify-between items-center mt-20">
                   <CardItem
                     translateZ={20}

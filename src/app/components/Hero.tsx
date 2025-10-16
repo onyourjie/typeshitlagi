@@ -23,7 +23,7 @@ export default function Hero() {
           {/* Radial gradient for the container to give a faded look */}
           <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"></div>
           <div className='z-50'>
-            <h2 className='text-neutral-600 dark:text-neutral-300 uppercase text-xl text-center'>Next.js Fullstack Developer</h2>
+            <h2 className='text-neutral-600 dark:text-neutral-300 uppercase text-xl text-center'>Web Developer — Building Scalable Digital Experiences</h2>
             <TextGenerateEffect words="Turning ideas into smooth, effortless experiences." />
             <p className='text-center text-neutral-600 dark:text-neutral-300 lg:text-xl md:tracking-wider'>
               Hello, I&apos;m Filzah a Web Developer
