@@ -1,4 +1,4 @@
- import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
+ import { IconHome, IconUser, IconBrandNotion, IconMessageStar, IconAddressBook} from "@tabler/icons-react";
 
  export const navItems = [
     {
@@ -15,21 +15,21 @@
       name: "Projects",
       link: "#projects",
       icon: (
-        <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
+        <IconBrandNotion className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
     },
     {
       name: "Testimnials",
       link: "#testimonials",
       icon: (
-        <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
+        <IconMessageStar className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
     },
     {
       name: "Contact",
       link: "#contact",
       icon: (
-        <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
+        <IconAddressBook className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
     },
   ];

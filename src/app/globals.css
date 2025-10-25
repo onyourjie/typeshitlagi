@@ -1,7 +1,11 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme inline {
-  --animate-spotlight: spotlight 2s ease 0.75s 1 forwards;
+@layer utilities {
+  .animate-spotlight {
+    animation: spotlight 2s ease 0.75s 1 forwards;
+  }
 }
  
 @keyframes spotlight {

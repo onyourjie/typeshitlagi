@@ -44,7 +44,7 @@ export default function Testimonials() {
   return (
     <section id='testimonials'>
         <Header title='Testimonials' />
-        <AnimatedTestimonials testimonials={testimonials} autoplay={true} />;
+        <AnimatedTestimonials testimonials={testimonials} autoplay={true} />
     </section>
   )
 }
