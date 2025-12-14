@@ -1,3 +1,5 @@
+import TechStack from "@/src/app/components/TechStack";
+
 export const projects = [
   {
     id: 1,
@@ -44,5 +46,31 @@ export const projects = [
     projectPreviewLink: "https://portofolio-filzah-k1fk-pv41s56vq-zeoyjeoys-projects.vercel.app/",
     projectSourceCode: "https://github.com/Zeoyjeoy/portofolio-filzah",
     techStack: ["React", "Tailwind CSS"]
+  },
+  {
+    id: 6,
+    projectTitle: "Jajan Lokal",
+    projectDescription: "Jajan Lokal is an e-commerce platform that showcases and sells traditional Indonesian snacks, promoting local culinary heritage.",
+    projectImage: "/images/jajan-lokal.png",
+    projectPreviewLink: "https://jajanlokal.vercel.app/",
+    projectSourceCode: "https://github.com/tim-wakwaw/jajanlokal",
+    TechStack: ["Next.js", "Tailwind CSS", "TypeScript", "Prisma", "PostgreSQL"]
+  },
+  {
+    id: 7,
+    projectTitle: "Quiz Master",
+    projectDescription: "Quiz Master is an engaging web application that allows users to create, share, and take quizzes on various topics, enhancing learning through interactive content.",
+    projectImage: "/images/quiz master.png",
+    projectPreviewLink: "https://dot-quizapp.vercel.app/",
+    projectSourceCode: "https://github.com/onyourjie/dot_quizapp",
+    TechStack: ["React", "Tailwind CSS", "TypeScript"]
+  },
+  {
+    projectTitle: "Indo News",
+    projectDescription: "Indo News is a news aggregation platform that curates the latest news articles from various Indonesian sources, providing users with up-to-date information in one convenient location.",
+    projectImage: "/images/indo-news.png",
+    projectPreviewLink: "https://indo-news-three.vercel.app/",
+    projectSourceCode: "https://github.com/onyourjie/indo-news",
+    TechStack: ["Angular", "Tailwind CSS", "TypeScript"]
   }
 ]
