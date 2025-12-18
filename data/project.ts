@@ -54,7 +54,7 @@ export const projects = [
     projectImage: "/images/jajan-lokal.png",
     projectPreviewLink: "https://jajanlokal.vercel.app/",
     projectSourceCode: "https://github.com/tim-wakwaw/jajanlokal",
-    TechStack: ["Next.js", "Tailwind CSS", "TypeScript", "Prisma", "PostgreSQL"]
+    techStack: ["Next.js", "Tailwind CSS", "TypeScript", "Prisma", "PostgreSQL"]
   },
   {
     id: 7,
@@ -63,7 +63,7 @@ export const projects = [
     projectImage: "/images/quiz master.png",
     projectPreviewLink: "https://dot-quizapp.vercel.app/",
     projectSourceCode: "https://github.com/onyourjie/dot_quizapp",
-    TechStack: ["React", "Tailwind CSS", "TypeScript"]
+    techStack: ["React", "Tailwind CSS", "TypeScript"]
   },
   {
     projectTitle: "Indo News",
@@ -71,7 +71,7 @@ export const projects = [
     projectImage: "/images/indo-news.png",
     projectPreviewLink: "https://indo-news-three.vercel.app/",
     projectSourceCode: "https://github.com/onyourjie/indo-news",
-    TechStack: ["Angular", "Tailwind CSS", "TypeScript"]
+    techStack: ["Angular", "Tailwind CSS", "TypeScript"]
   },
   {
     projectTitle: "Agroplus ID",
@@ -79,6 +79,6 @@ export const projects = [
     projectImage: "/images/agroplus.id.png",
     projectPreviewLink: "https://www.agroplusid.com/",
     projectSourceCode: "https://github.com/agroplus-id/www",
-    TechStack: ["Next.js", "Tailwind CSS", "TypeScript"]
+    techStack: ["Next.js", "Tailwind CSS", "TypeScript"]
   }
 ]
