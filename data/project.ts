@@ -72,5 +72,13 @@ export const projects = [
     projectPreviewLink: "https://indo-news-three.vercel.app/",
     projectSourceCode: "https://github.com/onyourjie/indo-news",
     TechStack: ["Angular", "Tailwind CSS", "TypeScript"]
+  },
+  {
+    projectTitle: "Agroplus ID",
+    projectDescription: "Agroplus ID is a comprehensive agricultural management platform that offers tools and resources for farmers to optimize crop production and farm operations.",
+    projectImage: "/images/agroplus.id.png",
+    projectPreviewLink: "https://www.agroplusid.com/",
+    projectSourceCode: "https://github.com/agroplus-id/www",
+    TechStack: ["Next.js", "Tailwind CSS", "TypeScript"]
   }
 ]
