@@ -1,5 +1,3 @@
-import TechStack from "@/src/app/components/TechStack";
-
 export const projects = [
   {
     id: 1,
@@ -80,5 +78,13 @@ export const projects = [
     projectPreviewLink: "https://www.agroplusid.com/",
     projectSourceCode: "https://github.com/agroplus-id/www",
     techStack: ["Next.js", "Tailwind CSS", "TypeScript"]
+  },
+  {
+    projectTitle: "Furniro",
+    projectDescription: "Furniro is an online furniture store that offers a wide range of stylish and affordable furniture pieces for every room in your home.",
+    projectImage: "/images/furniro.png",
+    projectPreviewLink: "https://furniro.vercel.app/",
+    projectSourceCode: "https://github.com/onyourjie/Furniro-FE",
+    techStack: ["Vue.js", "Tailwind CSS", "TypeScript", "Golang"]
   }
 ]
