@@ -83,7 +83,7 @@ export const projects = [
     projectTitle: "Furniro",
     projectDescription: "Furniro is an online furniture store that offers a wide range of stylish and affordable furniture pieces for every room in your home.",
     projectImage: "/images/furniro.png",
-    projectPreviewLink: "https://furniro.vercel.app/",
+    projectPreviewLink: "https://furniro-fe.vercel.app/",
     projectSourceCode: "https://github.com/onyourjie/Furniro-FE",
     techStack: ["Vue.js", "Tailwind CSS", "TypeScript", "Golang"]
   }
