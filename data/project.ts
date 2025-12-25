@@ -86,5 +86,12 @@ export const projects = [
     projectPreviewLink: "https://furniro-fe.vercel.app/",
     projectSourceCode: "https://github.com/onyourjie/Furniro-FE",
     techStack: ["Vue.js", "Tailwind CSS", "TypeScript", "Golang"]
+  },
+  {
+    projectTitle: "NickelFlow",
+    projectDescription: "NickelFlow is a cutting-edge web application designed to streamline workflow management and enhance team collaboration through intuitive task tracking and project organization features.",
+    projectImage: "/images/NickelFlow.png",
+    projectSourceCode: "https://github.com/onyourjie/nickel-flow",
+    techStack: ["Laravel", "Filament CSS", "MySQL"]
   }
 ]
