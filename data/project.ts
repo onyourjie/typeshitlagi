@@ -93,5 +93,20 @@ export const projects = [
     projectImage: "/images/NickelFlow.png",
     projectSourceCode: "https://github.com/onyourjie/nickel-flow",
     techStack: ["Laravel", "Filament CSS", "MySQL"]
+  },
+  {
+    projectTitle: "Wandhe Coffe Estate",
+    projectDescription: "Wandhe Coffee Estate is a visually appealing website that showcases the rich heritage and premium quality of Wandhe Coffee, offering an immersive experience for coffee enthusiasts.",
+    projectImage: "/images/wandhe.png",
+    projectPreviewLink: "https://wandhe.vercel.app/",
+    projectSourceCode: "https://github.com/agroplus-id/wandhe",
+    techStack: ["Svelte", "TypeScript", "CSS"]
+  },
+  {
+    projectTitle: "Hris Human Resource Information System ERA Indonesia",
+    projectDescription: "Hris is a comprehensive Human Resource Information System designed to streamline HR processes, manage employee data, and enhance organizational efficiency.",
+    projectImage: "/images/hris.jpeg",
+    projectSourceCode: "private repository",
+    techStack: ["Flutter", "Dart", "FCM", "Bloc"]
   }
 ]
