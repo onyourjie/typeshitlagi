@@ -1,3 +1,5 @@
+import TechStack from "@/src/app/components/TechStack";
+
 export const projects = [
   {
     id: 1,
@@ -108,5 +110,13 @@ export const projects = [
     projectImage: "/images/hris.jpeg",
     projectSourceCode: "private repository",
     techStack: ["Flutter", "Dart", "FCM", "Bloc"]
+  },
+  {
+    projectTitle: "Story Management",
+    projectDescription: "Story Management is a user-friendly web application that allows users to create, organize, and share their stories in a visually appealing and interactive format.",
+    projectImage: "/images/story management.png",
+    projectPreviewLink: "https://story-management-gohg.vercel.app/",
+    projectSourceCode: "https://github.com/onyourjie/story_management",
+    techStack: ["React", "Express", "PostgreSQL", "Tailwind CSS", "TypeScript"]
   }
 ]
